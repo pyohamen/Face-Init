@@ -1,0 +1,806 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+[06/Aug/2020 23:17:19] "GET / HTTP/1.1" 404 2390
+Not Found: /favicon.ico
+[06/Aug/2020 23:17:19] "GET /favicon.ico HTTP/1.1" 404 2441
+[06/Aug/2020 23:19:30] "OPTIONS /token/ HTTP/1.1" 200 0
+[06/Aug/2020 23:19:30] "POST /token/ HTTP/1.1" 200 52
+[06/Aug/2020 23:19:33] "OPTIONS /blog/api/group/ HTTP/1.1" 200 0
+[06/Aug/2020 23:19:33] "GET /blog/api/group/ HTTP/1.1" 200 1299
+[06/Aug/2020 23:20:01] "POST /token/ HTTP/1.1" 200 52
+[06/Aug/2020 23:20:03] "GET /blog/api/group/ HTTP/1.1" 200 1299
+[06/Aug/2020 23:20:25] "POST /blog/api/group/ HTTP/1.1" 201 182
+[06/Aug/2020 23:20:25] "GET /blog/api/group/ HTTP/1.1" 200 1482
+[06/Aug/2020 23:20:29] "OPTIONS /blog/api/group/13 HTTP/1.1" 200 0
+[06/Aug/2020 23:20:29] "DELETE /blog/api/group/13 HTTP/1.1" 201 35
+[06/Aug/2020 23:20:29] "GET /blog/api/group/ HTTP/1.1" 200 1299
+[06/Aug/2020 23:20:34] "GET /blog/api/group/ HTTP/1.1" 200 1299
+[06/Aug/2020 23:20:41] "GET /blog/api/group/ HTTP/1.1" 200 1299
+Not Found: /
+[07/Aug/2020 04:10:13] "GET / HTTP/1.1" 404 2386
+----------------------------------------
+Exception happened during processing of request from ('89.248.174.166', 46192)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/.venv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.venv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[07/Aug/2020 06:55:08] "GET / HTTP/1.1" 404 2386
+[07/Aug/2020 07:06:06] code 400, message Bad request syntax ('0xB16B00B511')
+[07/Aug/2020 07:06:06] "0xB16B00B511" 400 -
+[07/Aug/2020 09:01:13] code 400, message Bad request syntax ('\x16\x03\x01\x00¼\x01\x00\x00¸\x03\x03(\x96q\x88´\x8asÐb\x8b\x90\x9a²Ã4\x01îHÙÏ\x07¾O¶ûr|¢\x07@¡° In;oð)|B\x8eÀ\x92è\x19w°ÜË©\x8bU?\x9dZ\x8a>/×\x11\x06ØG½\x00 À/À0À+À,Ì¨Ì©À\x13À\tÀ\x14À')
+[07/Aug/2020 09:01:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2020 09:46:08] "OPTIONS /token/ HTTP/1.1" 200 0
+[07/Aug/2020 09:46:09] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 09:46:11] "OPTIONS /blog/api/group/ HTTP/1.1" 200 0
+[07/Aug/2020 09:46:11] "GET /blog/api/group/ HTTP/1.1" 200 1296
+[07/Aug/2020 10:13:55] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 10:14:01] "GET /blog/api/group/ HTTP/1.1" 200 1296
+[07/Aug/2020 10:14:02] "GET /blog/api/group/ HTTP/1.1" 200 1296
+[07/Aug/2020 10:16:43] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 10:18:46] "GET /blog/api/group/ HTTP/1.1" 200 1296
+Bad Request: /blog/api/group/
+[07/Aug/2020 10:24:20] "POST /blog/api/group/ HTTP/1.1" 400 102
+Bad Request: /blog/api/group/
+[07/Aug/2020 10:24:32] "POST /blog/api/group/ HTTP/1.1" 400 102
+Bad Request: /blog/api/group/
+[07/Aug/2020 10:24:40] "POST /blog/api/group/ HTTP/1.1" 400 49
+Bad Request: /blog/api/group/
+[07/Aug/2020 10:24:45] "POST /blog/api/group/ HTTP/1.1" 400 105
+Bad Request: /blog/api/group/
+[07/Aug/2020 10:24:56] "POST /blog/api/group/ HTTP/1.1" 400 161
+Bad Request: /blog/api/group/
+[07/Aug/2020 10:25:41] "POST /blog/api/group/ HTTP/1.1" 400 155
+Bad Request: /token/
+[07/Aug/2020 10:34:09] "POST /token/ HTTP/1.1" 400 100
+Bad Request: /token/
+[07/Aug/2020 10:34:11] "POST /token/ HTTP/1.1" 400 100
+[07/Aug/2020 10:34:12] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 10:36:07] "GET /blog/api/group/ HTTP/1.1" 200 1296
+[07/Aug/2020 10:36:56] "GET /blog/api/group/ HTTP/1.1" 200 1296
+[07/Aug/2020 11:15:55] "OPTIONS /token/ HTTP/1.1" 200 0
+[07/Aug/2020 11:15:55] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 11:16:14] "OPTIONS /blog/api/group/ HTTP/1.1" 200 0
+[07/Aug/2020 11:16:14] "GET /blog/api/group/ HTTP/1.1" 200 1296
+[07/Aug/2020 11:17:22] "OPTIONS /blog/api/group/12 HTTP/1.1" 200 0
+[07/Aug/2020 11:17:22] "DELETE /blog/api/group/12 HTTP/1.1" 201 35
+[07/Aug/2020 11:17:23] "GET /blog/api/group/ HTTP/1.1" 200 1108
+[07/Aug/2020 11:24:04] "GET /blog/api/group/ HTTP/1.1" 200 1108
+Not Found: /
+[07/Aug/2020 11:24:55] "GET / HTTP/1.1" 404 2390
+Bad Request: /token/
+[07/Aug/2020 11:25:18] "POST /token/ HTTP/1.1" 400 54
+[07/Aug/2020 11:25:25] "POST /token/ HTTP/1.1" 200 52
+Forbidden: /login/
+[07/Aug/2020 11:26:05] "GET /login/ HTTP/1.1" 403 96
+[07/Aug/2020 11:36:28] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 11:37:28] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 11:37:28] "POST /token/ HTTP/1.1" 200 52
+Forbidden: /login/
+[07/Aug/2020 11:37:30] "GET /login/ HTTP/1.1" 403 96
+Forbidden: /login/
+[07/Aug/2020 11:37:31] "GET /login/ HTTP/1.1" 403 96
+/home/ubuntu/s03p12a207/backend/backend/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 06, 2020 - 23:17:16
+Django version 2.2.14, using settings 'backend.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Unauthorized: /login/
+[07/Aug/2020 11:47:15] "GET /login/ HTTP/1.1" 401 96
+Unauthorized: /login/
+[07/Aug/2020 11:51:01] "POST /login/ HTTP/1.1" 401 96
+Unauthorized: /login/
+[07/Aug/2020 11:51:04] "POST /login/ HTTP/1.1" 401 96
+Unauthorized: /login/
+[07/Aug/2020 11:52:54] "POST /login/ HTTP/1.1" 401 96
+Unauthorized: /login/
+[07/Aug/2020 11:52:58] "POST /login/ HTTP/1.1" 401 96
+[07/Aug/2020 11:55:54] "GET /login/ HTTP/1.1" 200 28
+Unauthorized: /login/
+[07/Aug/2020 11:57:39] "POST /login/ HTTP/1.1" 401 96
+Unauthorized: /login/
+[07/Aug/2020 11:57:40] "POST /login/ HTTP/1.1" 401 96
+[07/Aug/2020 12:04:17] "POST /token/ HTTP/1.1" 200 52
+Unauthorized: /login/
+[07/Aug/2020 12:04:35] "POST /login/ HTTP/1.1" 401 96
+Unauthorized: /login/
+[07/Aug/2020 12:04:39] "GET /login/ HTTP/1.1" 401 96
+Unauthorized: /login/
+[07/Aug/2020 12:05:24] "GET /login/ HTTP/1.1" 401 96
+Unauthorized: /login/
+[07/Aug/2020 12:05:25] "GET /login/ HTTP/1.1" 401 96
+Unauthorized: /login/
+[07/Aug/2020 12:05:40] "GET /login/ HTTP/1.1" 401 96
+[07/Aug/2020 12:05:50] "GET /login/ HTTP/1.1" 200 28
+[07/Aug/2020 12:06:43] "POST /token/?username=admin&password=a207 HTTP/1.1" 200 52
+Unauthorized: /login/
+[07/Aug/2020 12:06:51] "GET /login/ HTTP/1.1" 401 128
+Unauthorized: /login/
+[07/Aug/2020 12:07:22] "GET /login/ HTTP/1.1" 401 128
+[07/Aug/2020 12:07:34] "GET /login/ HTTP/1.1" 200 28
+Unauthorized: /login/
+[07/Aug/2020 12:07:39] "GET /login/ HTTP/1.1" 401 128
+[07/Aug/2020 12:08:11] "GET /login/ HTTP/1.1" 200 28
+[07/Aug/2020 12:08:46] "POST /token/?username=admin&password=a207 HTTP/1.1" 200 52
+Unauthorized: /login/
+[07/Aug/2020 12:10:54] "GET /login/?Authorization=Token%20981c9e0e1%0A005502e527024eed54073d30f07b334 HTTP/1.1" 401 96
+Unauthorized: /login/
+[07/Aug/2020 12:11:02] "GET /login/ HTTP/1.1" 401 96
+Unauthorized: /login/
+[07/Aug/2020 12:11:23] "GET /login/ HTTP/1.1" 401 96
+Unauthorized: /login/
+[07/Aug/2020 12:11:24] "GET /login/ HTTP/1.1" 401 96
+Unauthorized: /login/
+[07/Aug/2020 12:11:25] "GET /login/ HTTP/1.1" 401 96
+[07/Aug/2020 12:14:52] "GET /login/ HTTP/1.1" 200 28
+Not Found: /
+[07/Aug/2020 12:36:53] "GET / HTTP/1.1" 404 2386
+[07/Aug/2020 12:42:36] "GET /login/ HTTP/1.1" 200 28
+[07/Aug/2020 12:42:39] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 12:57:51] "OPTIONS /blog/api/group/ HTTP/1.1" 200 0
+[07/Aug/2020 12:57:51] "GET /blog/api/group/ HTTP/1.1" 200 1108
+[07/Aug/2020 13:03:39] "OPTIONS /token/ HTTP/1.1" 200 0
+Bad Request: /token/
+[07/Aug/2020 13:03:39] "POST /token/ HTTP/1.1" 400 100
+Bad Request: /token/
+[07/Aug/2020 13:03:40] "POST /token/ HTTP/1.1" 400 100
+Bad Request: /token/
+[07/Aug/2020 13:03:43] "POST /token/ HTTP/1.1" 400 100
+Bad Request: /token/
+[07/Aug/2020 13:03:44] "POST /token/ HTTP/1.1" 400 100
+[07/Aug/2020 13:03:56] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:10:50] "OPTIONS /token/ HTTP/1.1" 200 0
+Bad Request: /token/
+[07/Aug/2020 13:10:51] "POST /token/ HTTP/1.1" 400 113
+Not Found: /
+[07/Aug/2020 13:11:32] "GET / HTTP/1.1" 404 2390
+Not Found: /favicon.ico
+[07/Aug/2020 13:11:32] "GET /favicon.ico HTTP/1.1" 404 2441
+[07/Aug/2020 13:11:39] "OPTIONS /token/ HTTP/1.1" 200 0
+[07/Aug/2020 13:11:39] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:11:39] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:11:43] "GET /blog/api/group/ HTTP/1.1" 200 1108
+[07/Aug/2020 13:11:49] "OPTIONS /token/ HTTP/1.1" 200 0
+[07/Aug/2020 13:11:49] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:11:50] "OPTIONS /token/ HTTP/1.1" 200 0
+[07/Aug/2020 13:11:51] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:12:03] "OPTIONS /token/ HTTP/1.1" 200 0
+[07/Aug/2020 13:12:03] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:12:12] "OPTIONS /blog/api/group/ HTTP/1.1" 200 0
+[07/Aug/2020 13:12:12] "GET /blog/api/group/ HTTP/1.1" 200 1108
+[07/Aug/2020 13:12:22] "OPTIONS /blog/api/group/ HTTP/1.1" 200 0
+[07/Aug/2020 13:12:22] "GET /blog/api/group/ HTTP/1.1" 200 1108
+Bad Request: /token/
+[07/Aug/2020 13:12:28] "POST /token/ HTTP/1.1" 400 100
+Bad Request: /token/
+[07/Aug/2020 13:12:29] "POST /token/ HTTP/1.1" 400 100
+Bad Request: /token/
+[07/Aug/2020 13:12:31] "POST /token/ HTTP/1.1" 400 100
+Bad Request: /token/
+[07/Aug/2020 13:12:32] "POST /token/ HTTP/1.1" 400 100
+Bad Request: /token/
+[07/Aug/2020 13:12:32] "POST /token/ HTTP/1.1" 400 100
+Bad Request: /token/
+[07/Aug/2020 13:12:32] "POST /token/ HTTP/1.1" 400 100
+[07/Aug/2020 13:12:42] "OPTIONS /blog/api/group/ HTTP/1.1" 200 0
+[07/Aug/2020 13:12:42] "GET /blog/api/group/ HTTP/1.1" 200 1108
+[07/Aug/2020 13:13:09] "OPTIONS /token/ HTTP/1.1" 200 0
+[07/Aug/2020 13:13:09] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:13:26] "GET /blog/api/group/ HTTP/1.1" 200 1108
+[07/Aug/2020 13:13:28] "GET /blog/api/group/ HTTP/1.1" 200 1108
+[07/Aug/2020 13:13:32] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:13:33] "GET /blog/api/group/ HTTP/1.1" 200 1108
+[07/Aug/2020 13:13:36] "OPTIONS /blog/api/group/ HTTP/1.1" 200 0
+[07/Aug/2020 13:13:36] "GET /blog/api/group/ HTTP/1.1" 200 1108
+[07/Aug/2020 13:13:47] "GET /blog/api/group/ HTTP/1.1" 200 1108
+[07/Aug/2020 13:14:09] "GET /blog/api/group/ HTTP/1.1" 200 1108
+[07/Aug/2020 13:14:12] "GET /blog/api/group/ HTTP/1.1" 200 1108
+[07/Aug/2020 13:14:14] "GET /blog/api/group/ HTTP/1.1" 200 1108
+[07/Aug/2020 13:14:14] "GET /blog/api/group/ HTTP/1.1" 200 1108
+[07/Aug/2020 13:14:16] "OPTIONS /token/ HTTP/1.1" 200 0
+[07/Aug/2020 13:14:16] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:14:19] "POST /blog/api/group/ HTTP/1.1" 201 150
+[07/Aug/2020 13:14:19] "GET /blog/api/group/ HTTP/1.1" 200 1259
+[07/Aug/2020 13:14:23] "OPTIONS /token/ HTTP/1.1" 200 0
+Bad Request: /token/
+[07/Aug/2020 13:14:23] "POST /token/ HTTP/1.1" 400 113
+[07/Aug/2020 13:14:24] "OPTIONS /blog/api/group/ HTTP/1.1" 200 0
+[07/Aug/2020 13:14:24] "GET /blog/api/group/ HTTP/1.1" 200 1259
+[07/Aug/2020 13:14:35] "POST /blog/api/group/ HTTP/1.1" 201 158
+[07/Aug/2020 13:14:35] "GET /blog/api/group/ HTTP/1.1" 200 1418
+[07/Aug/2020 13:14:38] "GET /blog/api/group/ HTTP/1.1" 200 1418
+[07/Aug/2020 13:14:39] "POST /blog/api/group/ HTTP/1.1" 201 149
+[07/Aug/2020 13:14:39] "GET /blog/api/group/ HTTP/1.1" 200 1568
+[07/Aug/2020 13:14:47] "GET /blog/api/group/ HTTP/1.1" 200 1568
+[07/Aug/2020 13:14:49] "GET /blog/api/group/ HTTP/1.1" 200 1568
+[07/Aug/2020 13:14:56] "GET /blog/api/group/ HTTP/1.1" 200 1568
+[07/Aug/2020 13:14:57] "GET /blog/api/group/ HTTP/1.1" 200 1568
+[07/Aug/2020 13:15:01] "OPTIONS /blog/api/group/16 HTTP/1.1" 200 0
+[07/Aug/2020 13:15:01] "DELETE /blog/api/group/16 HTTP/1.1" 201 35
+[07/Aug/2020 13:15:01] "GET /blog/api/group/ HTTP/1.1" 200 1418
+[07/Aug/2020 13:15:02] "GET /blog/api/group/ HTTP/1.1" 200 1418
+[07/Aug/2020 13:15:02] "GET /blog/api/group/ HTTP/1.1" 200 1418
+[07/Aug/2020 13:15:37] "GET /blog/api/group/ HTTP/1.1" 200 1418
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:15:47] "POST /blog/api/group/ HTTP/1.1" 400 155
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:15:48] "POST /blog/api/group/ HTTP/1.1" 400 155
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:15:48] "POST /blog/api/group/ HTTP/1.1" 400 155
+[07/Aug/2020 13:15:49] "OPTIONS /token/ HTTP/1.1" 200 0
+[07/Aug/2020 13:15:49] "POST /token/ HTTP/1.1" 200 52
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:15:52] "POST /blog/api/group/ HTTP/1.1" 400 102
+[07/Aug/2020 13:15:56] "GET /blog/api/group/ HTTP/1.1" 200 1418
+[07/Aug/2020 13:16:14] "POST /blog/api/group/ HTTP/1.1" 201 174
+[07/Aug/2020 13:16:14] "GET /blog/api/group/ HTTP/1.1" 200 1593
+[07/Aug/2020 13:16:17] "GET /blog/api/group/ HTTP/1.1" 200 1593
+[07/Aug/2020 13:16:17] "GET /blog/api/group/ HTTP/1.1" 200 1593
+[07/Aug/2020 13:16:22] "OPTIONS /blog/api/group/17 HTTP/1.1" 200 0
+[07/Aug/2020 13:16:23] "DELETE /blog/api/group/17 HTTP/1.1" 201 35
+[07/Aug/2020 13:16:23] "GET /blog/api/group/ HTTP/1.1" 200 1418
+[07/Aug/2020 13:16:32] "OPTIONS /token/ HTTP/1.1" 200 0
+[07/Aug/2020 13:16:32] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:17:08] "OPTIONS /blog/api/group/ HTTP/1.1" 200 0
+[07/Aug/2020 13:17:08] "GET /blog/api/group/ HTTP/1.1" 200 1418
+[07/Aug/2020 13:17:09] "GET /blog/api/group/ HTTP/1.1" 200 1418
+[07/Aug/2020 13:17:19] "OPTIONS /blog/api/group/14 HTTP/1.1" 200 0
+[07/Aug/2020 13:17:19] "DELETE /blog/api/group/14 HTTP/1.1" 201 35
+[07/Aug/2020 13:17:19] "GET /blog/api/group/ HTTP/1.1" 200 1267
+[07/Aug/2020 13:17:29] "GET /blog/api/group/ HTTP/1.1" 200 1267
+[07/Aug/2020 13:18:08] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:18:12] "GET /blog/api/group/ HTTP/1.1" 200 1267
+[07/Aug/2020 13:18:38] "OPTIONS /blog/api/group/ HTTP/1.1" 200 0
+[07/Aug/2020 13:18:38] "GET /blog/api/group/ HTTP/1.1" 200 1267
+[07/Aug/2020 13:18:55] "OPTIONS /blog/api/group/ HTTP/1.1" 200 0
+[07/Aug/2020 13:18:55] "GET /blog/api/group/ HTTP/1.1" 200 1267
+[07/Aug/2020 13:19:06] "POST /blog/api/group/ HTTP/1.1" 201 153
+[07/Aug/2020 13:19:06] "GET /blog/api/group/ HTTP/1.1" 200 1421
+[07/Aug/2020 13:19:31] "GET /blog/api/group/ HTTP/1.1" 200 1421
+[07/Aug/2020 13:19:35] "GET /blog/api/group/ HTTP/1.1" 200 1421
+[07/Aug/2020 13:20:05] "POST /blog/api/group/ HTTP/1.1" 201 151
+[07/Aug/2020 13:20:05] "GET /blog/api/group/ HTTP/1.1" 200 1573
+[07/Aug/2020 13:20:12] "GET /blog/api/group/ HTTP/1.1" 200 1573
+[07/Aug/2020 13:20:18] "GET /blog/api/group/ HTTP/1.1" 200 1573
+[07/Aug/2020 13:21:56] "GET /blog/api/group/ HTTP/1.1" 200 1573
+[07/Aug/2020 13:22:04] "GET /blog/api/group/ HTTP/1.1" 200 1573
+Bad Request: /token/
+[07/Aug/2020 13:22:11] "POST /token/ HTTP/1.1" 400 100
+Bad Request: /token/
+[07/Aug/2020 13:22:12] "POST /token/ HTTP/1.1" 400 100
+Bad Request: /token/
+[07/Aug/2020 13:22:12] "POST /token/ HTTP/1.1" 400 100
+Bad Request: /token/
+[07/Aug/2020 13:22:17] "POST /token/ HTTP/1.1" 400 100
+Bad Request: /token/
+[07/Aug/2020 13:22:19] "POST /token/ HTTP/1.1" 400 100
+[07/Aug/2020 13:22:22] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:24:03] "OPTIONS /token/ HTTP/1.1" 200 0
+[07/Aug/2020 13:24:03] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:24:08] "OPTIONS /blog/api/group/ HTTP/1.1" 200 0
+[07/Aug/2020 13:24:08] "GET /blog/api/group/ HTTP/1.1" 200 1573
+[07/Aug/2020 13:24:16] "GET /blog/api/group/ HTTP/1.1" 200 1573
+[07/Aug/2020 13:24:30] "GET /blog/api/group/ HTTP/1.1" 200 1573
+[07/Aug/2020 13:24:34] "GET /blog/api/group/ HTTP/1.1" 200 1573
+[07/Aug/2020 13:24:39] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:24:41] "GET /blog/api/group/ HTTP/1.1" 200 1573
+[07/Aug/2020 13:24:48] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:24:51] "GET /blog/api/group/ HTTP/1.1" 200 1573
+[07/Aug/2020 13:25:02] "OPTIONS /blog/api/group/8 HTTP/1.1" 200 0
+[07/Aug/2020 13:25:02] "DELETE /blog/api/group/8 HTTP/1.1" 201 35
+[07/Aug/2020 13:25:02] "GET /blog/api/group/ HTTP/1.1" 200 1412
+[07/Aug/2020 13:25:04] "OPTIONS /blog/api/group/6 HTTP/1.1" 200 0
+[07/Aug/2020 13:25:04] "DELETE /blog/api/group/6 HTTP/1.1" 201 35
+[07/Aug/2020 13:25:04] "GET /blog/api/group/ HTTP/1.1" 200 1251
+[07/Aug/2020 13:26:33] "GET /blog/api/group/ HTTP/1.1" 200 1251
+[07/Aug/2020 13:26:45] "OPTIONS /blog/api/group/15 HTTP/1.1" 200 0
+[07/Aug/2020 13:26:45] "DELETE /blog/api/group/15 HTTP/1.1" 201 35
+[07/Aug/2020 13:26:45] "GET /blog/api/group/ HTTP/1.1" 200 1092
+[07/Aug/2020 13:26:46] "GET /blog/api/group/ HTTP/1.1" 200 1092
+[07/Aug/2020 13:26:46] "GET /blog/api/group/ HTTP/1.1" 200 1092
+[07/Aug/2020 13:26:48] "GET /blog/api/group/ HTTP/1.1" 200 1092
+[07/Aug/2020 13:26:49] "GET /blog/api/group/ HTTP/1.1" 200 1092
+[07/Aug/2020 13:26:49] "GET /blog/api/group/ HTTP/1.1" 200 1092
+[07/Aug/2020 13:26:50] "GET /blog/api/group/ HTTP/1.1" 200 1092
+[07/Aug/2020 13:26:50] "GET /blog/api/group/ HTTP/1.1" 200 1092
+[07/Aug/2020 13:26:58] "GET /blog/api/group/ HTTP/1.1" 200 1092
+[07/Aug/2020 13:27:10] "GET /blog/api/group/ HTTP/1.1" 200 1092
+[07/Aug/2020 13:27:15] "POST /blog/api/group/ HTTP/1.1" 201 148
+[07/Aug/2020 13:27:15] "GET /blog/api/group/ HTTP/1.1" 200 1241
+[07/Aug/2020 13:27:20] "POST /blog/api/group/ HTTP/1.1" 201 148
+[07/Aug/2020 13:27:20] "GET /blog/api/group/ HTTP/1.1" 200 1390
+[07/Aug/2020 13:27:34] "GET /blog/api/group/ HTTP/1.1" 200 1390
+[07/Aug/2020 13:27:35] "GET /blog/api/group/ HTTP/1.1" 200 1390
+[07/Aug/2020 13:27:36] "GET /blog/api/group/ HTTP/1.1" 200 1390
+[07/Aug/2020 13:27:37] "GET /blog/api/group/ HTTP/1.1" 200 1390
+[07/Aug/2020 13:27:40] "GET /blog/api/group/ HTTP/1.1" 200 1390
+[07/Aug/2020 13:27:40] "GET /blog/api/group/ HTTP/1.1" 200 1390
+[07/Aug/2020 13:27:41] "GET /blog/api/group/ HTTP/1.1" 200 1390
+[07/Aug/2020 13:27:41] "GET /blog/api/group/ HTTP/1.1" 200 1390
+[07/Aug/2020 13:27:46] "GET /blog/api/group/ HTTP/1.1" 200 1390
+[07/Aug/2020 13:27:57] "GET /blog/api/group/ HTTP/1.1" 200 1390
+[07/Aug/2020 13:28:26] "OPTIONS /blog/api/group/ HTTP/1.1" 200 0
+[07/Aug/2020 13:28:26] "GET /blog/api/group/ HTTP/1.1" 200 1390
+[07/Aug/2020 13:28:29] "POST /blog/api/group/ HTTP/1.1" 201 157
+[07/Aug/2020 13:28:29] "GET /blog/api/group/ HTTP/1.1" 200 1548
+[07/Aug/2020 13:28:29] "GET /blog/api/group/ HTTP/1.1" 200 1548
+[07/Aug/2020 13:28:34] "OPTIONS /blog/api/group/2 HTTP/1.1" 200 0
+[07/Aug/2020 13:28:35] "DELETE /blog/api/group/2 HTTP/1.1" 201 35
+[07/Aug/2020 13:28:35] "GET /blog/api/group/ HTTP/1.1" 200 1390
+[07/Aug/2020 13:28:36] "GET /blog/api/group/ HTTP/1.1" 200 1390
+[07/Aug/2020 13:28:37] "OPTIONS /blog/api/group/5 HTTP/1.1" 200 0
+[07/Aug/2020 13:28:37] "DELETE /blog/api/group/5 HTTP/1.1" 201 35
+[07/Aug/2020 13:28:37] "GET /blog/api/group/ HTTP/1.1" 200 1229
+[07/Aug/2020 13:28:39] "GET /blog/api/group/ HTTP/1.1" 200 1229
+[07/Aug/2020 13:28:39] "GET /blog/api/group/ HTTP/1.1" 200 1229
+[07/Aug/2020 13:28:39] "GET /blog/api/group/ HTTP/1.1" 200 1229
+[07/Aug/2020 13:28:40] "GET /blog/api/group/ HTTP/1.1" 200 1229
+[07/Aug/2020 13:28:43] "OPTIONS /blog/api/group/21 HTTP/1.1" 200 0
+[07/Aug/2020 13:28:43] "DELETE /blog/api/group/21 HTTP/1.1" 201 35
+[07/Aug/2020 13:28:43] "GET /blog/api/group/ HTTP/1.1" 200 1080
+[07/Aug/2020 13:28:47] "OPTIONS /blog/api/group/20 HTTP/1.1" 200 0
+[07/Aug/2020 13:28:47] "DELETE /blog/api/group/20 HTTP/1.1" 201 35
+[07/Aug/2020 13:28:47] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:28:50] "OPTIONS /blog/api/group/ HTTP/1.1" 200 0
+[07/Aug/2020 13:28:50] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:28:51] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:28:59] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:00] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:01] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:02] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:07] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:18] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:36] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:36] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:37] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:37] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:38] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:39] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:39] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:40] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:41] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:42] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:43] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:44] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:45] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:46] "OPTIONS /blog/api/group/ HTTP/1.1" 200 0
+[07/Aug/2020 13:29:46] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:46] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:48] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:48] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:49] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:50] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:50] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:51] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:55] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:56] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:57] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:58] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:29:58] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:30:00] "GET /blog/api/group/ HTTP/1.1" 200 931
+[07/Aug/2020 13:30:01] "GET /blog/api/group/ HTTP/1.1" 200 931
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:30:29] "POST /blog/api/group/ HTTP/1.1" 400 49
+[07/Aug/2020 13:30:32] "POST /blog/api/group/ HTTP/1.1" 201 145
+[07/Aug/2020 13:30:32] "GET /blog/api/group/ HTTP/1.1" 200 1077
+[07/Aug/2020 13:30:32] "GET /blog/api/group/ HTTP/1.1" 200 1077
+[07/Aug/2020 13:30:41] "GET /blog/api/group/ HTTP/1.1" 200 1077
+[07/Aug/2020 13:30:51] "GET /blog/api/group/ HTTP/1.1" 200 1077
+[07/Aug/2020 13:31:24] "GET /blog/api/group/ HTTP/1.1" 200 1077
+[07/Aug/2020 13:31:41] "GET /blog/api/group/ HTTP/1.1" 200 1077
+[07/Aug/2020 13:31:44] "GET /blog/api/group/ HTTP/1.1" 200 1077
+[07/Aug/2020 13:31:52] "GET /blog/api/group/ HTTP/1.1" 200 1077
+[07/Aug/2020 13:31:54] "GET /blog/api/group/ HTTP/1.1" 200 1077
+[07/Aug/2020 13:32:10] "GET /blog/api/group/ HTTP/1.1" 200 1077
+[07/Aug/2020 13:32:11] "GET /blog/api/group/ HTTP/1.1" 200 1077
+[07/Aug/2020 13:32:12] "GET /blog/api/group/ HTTP/1.1" 200 1077
+[07/Aug/2020 13:32:12] "GET /blog/api/group/ HTTP/1.1" 200 1077
+[07/Aug/2020 13:32:13] "GET /blog/api/group/ HTTP/1.1" 200 1077
+[07/Aug/2020 13:32:14] "GET /blog/api/group/ HTTP/1.1" 200 1077
+[07/Aug/2020 13:32:14] "GET /blog/api/group/ HTTP/1.1" 200 1077
+[07/Aug/2020 13:32:23] "GET /blog/api/group/ HTTP/1.1" 200 1077
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:32:39] "POST /blog/api/group/ HTTP/1.1" 400 59
+[07/Aug/2020 13:32:43] "GET /blog/api/group/ HTTP/1.1" 200 1077
+[07/Aug/2020 13:32:45] "POST /blog/api/group/ HTTP/1.1" 201 143
+[07/Aug/2020 13:32:45] "GET /blog/api/group/ HTTP/1.1" 200 1221
+[07/Aug/2020 13:32:53] "GET /blog/api/group/ HTTP/1.1" 200 1221
+[07/Aug/2020 13:33:01] "GET /blog/api/group/ HTTP/1.1" 200 1221
+[07/Aug/2020 13:33:01] "GET /blog/api/group/ HTTP/1.1" 200 1221
+[07/Aug/2020 13:33:13] "POST /blog/api/group/ HTTP/1.1" 201 153
+[07/Aug/2020 13:33:13] "GET /blog/api/group/ HTTP/1.1" 200 1375
+[07/Aug/2020 13:33:21] "GET /blog/api/group/ HTTP/1.1" 200 1375
+[07/Aug/2020 13:33:24] "GET /blog/api/group/ HTTP/1.1" 200 1375
+[07/Aug/2020 13:33:44] "POST /blog/api/group/ HTTP/1.1" 201 145
+[07/Aug/2020 13:33:45] "GET /blog/api/group/ HTTP/1.1" 200 1521
+[07/Aug/2020 13:33:57] "GET /blog/api/group/ HTTP/1.1" 200 1521
+[07/Aug/2020 13:34:00] "GET /blog/api/group/ HTTP/1.1" 200 1521
+[07/Aug/2020 13:34:02] "POST /blog/api/group/ HTTP/1.1" 201 153
+[07/Aug/2020 13:34:02] "GET /blog/api/group/ HTTP/1.1" 200 1675
+[07/Aug/2020 13:34:11] "POST /blog/api/group/ HTTP/1.1" 201 149
+[07/Aug/2020 13:34:12] "GET /blog/api/group/ HTTP/1.1" 200 1825
+[07/Aug/2020 13:34:20] "GET /blog/api/group/ HTTP/1.1" 200 1825
+Bad Request: /token/
+[07/Aug/2020 13:34:32] "POST /token/ HTTP/1.1" 400 100
+[07/Aug/2020 13:34:36] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:34:37] "GET /blog/api/group/ HTTP/1.1" 200 1825
+[07/Aug/2020 13:34:38] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:34:40] "GET /blog/api/group/ HTTP/1.1" 200 1825
+[07/Aug/2020 13:34:41] "GET /blog/api/group/ HTTP/1.1" 200 1825
+[07/Aug/2020 13:34:43] "GET /blog/api/group/ HTTP/1.1" 200 1825
+[07/Aug/2020 13:34:43] "OPTIONS /blog/api/group/28 HTTP/1.1" 200 0
+[07/Aug/2020 13:34:43] "DELETE /blog/api/group/28 HTTP/1.1" 201 35
+[07/Aug/2020 13:34:43] "GET /blog/api/group/ HTTP/1.1" 200 1675
+[07/Aug/2020 13:34:44] "GET /blog/api/group/ HTTP/1.1" 200 1675
+[07/Aug/2020 13:34:57] "GET /blog/api/group/ HTTP/1.1" 200 1675
+[07/Aug/2020 13:34:57] "GET /blog/api/group/ HTTP/1.1" 200 1675
+[07/Aug/2020 13:35:13] "GET /blog/api/group/ HTTP/1.1" 200 1675
+[07/Aug/2020 13:35:14] "GET /blog/api/group/ HTTP/1.1" 200 1675
+[07/Aug/2020 13:35:18] "GET /blog/api/group/ HTTP/1.1" 200 1675
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:35:26] "POST /blog/api/group/ HTTP/1.1" 400 49
+[07/Aug/2020 13:35:27] "GET /blog/api/group/ HTTP/1.1" 200 1675
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:35:28] "POST /blog/api/group/ HTTP/1.1" 400 49
+[07/Aug/2020 13:35:32] "GET /blog/api/group/ HTTP/1.1" 200 1675
+[07/Aug/2020 13:35:33] "GET /blog/api/group/ HTTP/1.1" 200 1675
+[07/Aug/2020 13:35:34] "GET /blog/api/group/ HTTP/1.1" 200 1675
+[07/Aug/2020 13:35:35] "GET /blog/api/group/ HTTP/1.1" 200 1675
+[07/Aug/2020 13:35:36] "GET /blog/api/group/ HTTP/1.1" 200 1675
+[07/Aug/2020 13:35:36] "GET /blog/api/group/ HTTP/1.1" 200 1675
+[07/Aug/2020 13:35:37] "GET /blog/api/group/ HTTP/1.1" 200 1675
+[07/Aug/2020 13:35:38] "GET /blog/api/group/ HTTP/1.1" 200 1675
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:35:48] "POST /blog/api/group/ HTTP/1.1" 400 52
+[07/Aug/2020 13:35:58] "GET /blog/api/group/ HTTP/1.1" 200 1675
+[07/Aug/2020 13:36:00] "GET /blog/api/group/ HTTP/1.1" 200 1675
+[07/Aug/2020 13:36:04] "POST /blog/api/group/ HTTP/1.1" 201 151
+[07/Aug/2020 13:36:04] "GET /blog/api/group/ HTTP/1.1" 200 1827
+[07/Aug/2020 13:36:14] "POST /blog/api/group/ HTTP/1.1" 201 151
+[07/Aug/2020 13:36:14] "GET /blog/api/group/ HTTP/1.1" 200 1979
+[07/Aug/2020 13:36:21] "GET /blog/api/group/ HTTP/1.1" 200 1979
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:36:22] "POST /blog/api/group/ HTTP/1.1" 400 155
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:36:22] "POST /blog/api/group/ HTTP/1.1" 400 155
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:36:34] "POST /blog/api/group/ HTTP/1.1" 400 155
+[07/Aug/2020 13:36:40] "GET /blog/api/group/ HTTP/1.1" 200 1979
+[07/Aug/2020 13:37:55] "GET /blog/api/group/ HTTP/1.1" 200 1979
+[07/Aug/2020 13:38:04] "GET /blog/api/group/ HTTP/1.1" 200 1979
+[07/Aug/2020 13:38:22] "POST /blog/api/group/ HTTP/1.1" 201 147
+[07/Aug/2020 13:38:22] "GET /blog/api/group/ HTTP/1.1" 200 2127
+[07/Aug/2020 13:38:53] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:39:00] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:39:01] "GET /blog/api/group/ HTTP/1.1" 200 2127
+[07/Aug/2020 13:39:10] "GET /blog/api/group/ HTTP/1.1" 200 2127
+[07/Aug/2020 13:39:27] "GET /blog/api/group/ HTTP/1.1" 200 2127
+[07/Aug/2020 13:39:43] "GET /blog/api/group/ HTTP/1.1" 200 2127
+[07/Aug/2020 13:39:56] "GET /blog/api/group/ HTTP/1.1" 200 2127
+[07/Aug/2020 13:39:59] "GET /blog/api/group/ HTTP/1.1" 200 2127
+[07/Aug/2020 13:40:05] "GET /blog/api/group/ HTTP/1.1" 200 2127
+[07/Aug/2020 13:40:18] "GET /blog/api/group/ HTTP/1.1" 200 2127
+[07/Aug/2020 13:40:23] "GET /blog/api/group/ HTTP/1.1" 200 2127
+[07/Aug/2020 13:40:23] "GET /blog/api/group/ HTTP/1.1" 200 2127
+[07/Aug/2020 13:40:24] "GET /blog/api/group/ HTTP/1.1" 200 2127
+[07/Aug/2020 13:40:38] "OPTIONS /blog/api/group/29 HTTP/1.1" 200 0
+[07/Aug/2020 13:40:38] "DELETE /blog/api/group/29 HTTP/1.1" 201 35
+[07/Aug/2020 13:40:38] "GET /blog/api/group/ HTTP/1.1" 200 1975
+[07/Aug/2020 13:40:43] "OPTIONS /blog/api/group/29 HTTP/1.1" 200 0
+[07/Aug/2020 13:40:43] "DELETE /blog/api/group/29 HTTP/1.1" 201 35
+[07/Aug/2020 13:40:43] "GET /blog/api/group/ HTTP/1.1" 200 1975
+[07/Aug/2020 13:40:48] "GET /blog/api/group/ HTTP/1.1" 200 1975
+[07/Aug/2020 13:40:51] "GET /blog/api/group/ HTTP/1.1" 200 1975
+[07/Aug/2020 13:44:36] "GET /blog/api/group/ HTTP/1.1" 200 1975
+[07/Aug/2020 13:44:54] "OPTIONS /blog/api/group/31 HTTP/1.1" 200 0
+[07/Aug/2020 13:44:54] "DELETE /blog/api/group/31 HTTP/1.1" 201 35
+[07/Aug/2020 13:44:54] "GET /blog/api/group/ HTTP/1.1" 200 1827
+[07/Aug/2020 13:44:58] "GET /blog/api/group/ HTTP/1.1" 200 1827
+[07/Aug/2020 13:45:02] "GET /blog/api/group/ HTTP/1.1" 200 1827
+[07/Aug/2020 13:45:09] "GET /blog/api/group/ HTTP/1.1" 200 1827
+[07/Aug/2020 13:45:11] "GET /blog/api/group/ HTTP/1.1" 200 1827
+[07/Aug/2020 13:45:11] "GET /blog/api/group/ HTTP/1.1" 200 1827
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:45:22] "POST /blog/api/group/ HTTP/1.1" 400 81
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:45:23] "POST /blog/api/group/ HTTP/1.1" 400 81
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:45:23] "POST /blog/api/group/ HTTP/1.1" 400 81
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:45:24] "POST /blog/api/group/ HTTP/1.1" 400 81
+[07/Aug/2020 13:45:26] "GET /blog/api/group/ HTTP/1.1" 200 1827
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:45:32] "POST /blog/api/group/ HTTP/1.1" 400 49
+[07/Aug/2020 13:45:35] "POST /blog/api/group/ HTTP/1.1" 201 161
+[07/Aug/2020 13:45:35] "GET /blog/api/group/ HTTP/1.1" 200 1989
+[07/Aug/2020 13:45:42] "GET /blog/api/group/ HTTP/1.1" 200 1989
+[07/Aug/2020 13:45:48] "POST /blog/api/group/ HTTP/1.1" 201 168
+[07/Aug/2020 13:45:48] "GET /blog/api/group/ HTTP/1.1" 200 2158
+[07/Aug/2020 13:45:53] "POST /blog/api/group/ HTTP/1.1" 201 178
+[07/Aug/2020 13:45:53] "GET /blog/api/group/ HTTP/1.1" 200 2337
+[07/Aug/2020 13:45:57] "POST /token/ HTTP/1.1" 200 52
+[07/Aug/2020 13:45:58] "POST /blog/api/group/ HTTP/1.1" 201 188
+[07/Aug/2020 13:45:58] "GET /blog/api/group/ HTTP/1.1" 200 2526
+[07/Aug/2020 13:46:00] "GET /blog/api/group/ HTTP/1.1" 200 2526
+[07/Aug/2020 13:46:07] "POST /blog/api/group/ HTTP/1.1" 201 196
+[07/Aug/2020 13:46:07] "GET /blog/api/group/ HTTP/1.1" 200 2723
+[07/Aug/2020 13:46:11] "POST /blog/api/group/ HTTP/1.1" 201 206
+[07/Aug/2020 13:46:11] "GET /blog/api/group/ HTTP/1.1" 200 2930
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:46:15] "POST /blog/api/group/ HTTP/1.1" 400 81
+[07/Aug/2020 13:46:18] "POST /token/ HTTP/1.1" 200 52
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:46:19] "POST /blog/api/group/ HTTP/1.1" 400 81
+[07/Aug/2020 13:46:21] "GET /blog/api/group/ HTTP/1.1" 200 2930
+[07/Aug/2020 13:46:21] "POST /blog/api/group/ HTTP/1.1" 201 224
+[07/Aug/2020 13:46:21] "GET /blog/api/group/ HTTP/1.1" 200 3155
+[07/Aug/2020 13:46:23] "GET /blog/api/group/ HTTP/1.1" 200 3155
+[07/Aug/2020 13:46:24] "POST /blog/api/group/ HTTP/1.1" 201 226
+[07/Aug/2020 13:46:24] "GET /blog/api/group/ HTTP/1.1" 200 3382
+[07/Aug/2020 13:46:24] "GET /blog/api/group/ HTTP/1.1" 200 3382
+[07/Aug/2020 13:46:26] "POST /blog/api/group/ HTTP/1.1" 201 227
+[07/Aug/2020 13:46:26] "GET /blog/api/group/ HTTP/1.1" 200 3610
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:46:30] "POST /blog/api/group/ HTTP/1.1" 400 81
+[07/Aug/2020 13:46:31] "OPTIONS /blog/api/group/18 HTTP/1.1" 200 0
+[07/Aug/2020 13:46:31] "DELETE /blog/api/group/18 HTTP/1.1" 201 35
+[07/Aug/2020 13:46:31] "GET /blog/api/group/ HTTP/1.1" 200 3456
+[07/Aug/2020 13:46:34] "GET /blog/api/group/ HTTP/1.1" 200 3456
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:47:01] "POST /blog/api/group/ HTTP/1.1" 400 155
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:47:01] "POST /blog/api/group/ HTTP/1.1" 400 155
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:47:01] "POST /blog/api/group/ HTTP/1.1" 400 155
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:47:02] "POST /blog/api/group/ HTTP/1.1" 400 155
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:47:06] "POST /blog/api/group/ HTTP/1.1" 400 155
+Bad Request: /blog/api/group/
+[07/Aug/2020 13:47:23] "POST /blog/api/group/ HTTP/1.1" 400 155
+[07/Aug/2020 13:47:27] "GET /blog/api/group/ HTTP/1.1" 200 3456
+[07/Aug/2020 13:49:34] "OPTIONS /blog/api/group/ HTTP/1.1" 200 0
+[07/Aug/2020 13:49:35] "GET /blog/api/group/ HTTP/1.1" 200 3456
+[07/Aug/2020 13:50:05] "GET /blog/api/group/ HTTP/1.1" 200 3456
+[07/Aug/2020 14:29:23] "GET /blog/api/group/ HTTP/1.1" 200 3456
+[07/Aug/2020 14:39:22] "GET /blog/api/group/ HTTP/1.1" 200 3456
+Not Found: /
+[07/Aug/2020 15:27:46] "GET / HTTP/1.1" 404 2386
+----------------------------------------
+Exception happened during processing of request from ('89.248.174.166', 39376)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/.venv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.venv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[07/Aug/2020 17:55:03] "GET / HTTP/1.1" 404 2381
+[07/Aug/2020 18:33:40] code 400, message Bad request syntax ('\x16\x03\x01\x00¼\x01\x00\x00¸\x03\x03Ép´ÚÈmÃ\x16')
+[07/Aug/2020 18:33:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2020 18:45:39] code 400, message Bad request version ("\x99Ø\x8eÝ\x97\x93¬\x00\x00J\x00ÿÀ,À0À$À(À.À2À&À*\x00\x9f\x00£\x00k\x00jÀ+À/À#À'À-À1À%À)\x00\x9e\x00¢\x00g\x00@À")
+[07/Aug/2020 18:45:39] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2020 19:23:09] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.8.0')
+[07/Aug/2020 19:23:09] "SSH-2.0-libssh2_1.8.0" 400 -
+[07/Aug/2020 19:44:37] code 400, message Bad request syntax ('\x16\x03\x01\x00¼\x01\x00\x00¸\x03\x03\x1bfÿý\x96\x9cs$\x0cCæ\x83ý\x07¬â}T\t<¸$;\x06a\x85\t±\x94°-\x14 \x80\x97\x11\x8e¶\x08\x8f©Ë+;è½õ«÷\x15T_\x0e¹[Lq\x91à^9^F0_\x00 À/À0À+À,Ì¨Ì©À\x13À\tÀ\x14À')
+[07/Aug/2020 19:44:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2020 19:49:32] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03\x12Ã~KsçýÇv\x8d»x\x82IÒ\x8f¹C)pÉ§\x03\x96\x1aÉ£²<\x84C;\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[07/Aug/2020 19:49:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Aug/2020 20:48:48] code 400, message Bad request syntax ('\x16\x03\x01\x00¼\x01\x00\x00¸\x03\x034uF"u[ª\xad\x87,»\x18XC÷\x94Ú®¡ÉÜAã)\x1d77Å\x1eÜU¾ F\x93/Áê\x1dáþ¢Óû³Q~z\x89<{\x0bR\x8dß8§\x9a¯\x8d8a\x8dè<\x00 À/À0À+À,Ì¨Ì©À\x13À\tÀ\x14À')
+[07/Aug/2020 20:48:48] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[08/Aug/2020 01:30:42] "GET / HTTP/1.1" 404 2386
+----------------------------------------
+Exception happened during processing of request from ('89.248.174.166', 53284)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/.venv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.venv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[08/Aug/2020 06:59:26] "GET / HTTP/1.1" 404 2386
+Not Found: /
+[08/Aug/2020 11:32:31] "GET / HTTP/1.1" 404 2386
+----------------------------------------
+Exception happened during processing of request from ('89.248.174.166', 48538)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/.venv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.venv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[08/Aug/2020 21:06:20] "GET / HTTP/1.1" 404 2386
+----------------------------------------
+Exception happened during processing of request from ('89.248.174.166', 54686)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/.venv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.venv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[08/Aug/2020 21:55:00] "GET / HTTP/1.1" 404 2386
+Not Found: /
+[09/Aug/2020 04:40:43] "GET / HTTP/1.1" 404 2386
+Not Found: /
+[09/Aug/2020 07:08:53] "GET / HTTP/1.1" 404 2386
+----------------------------------------
+Exception happened during processing of request from ('89.248.174.166', 54200)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/.venv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.venv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[09/Aug/2020 10:53:13] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[09/Aug/2020 10:53:13] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /boaform/admin/formLogin
+[09/Aug/2020 12:44:41] "POST /boaform/admin/formLogin HTTP/1.1" 404 2474
+Not Found: /
+[09/Aug/2020 13:03:07] "GET / HTTP/1.1" 404 2386
+[09/Aug/2020 13:44:28] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[09/Aug/2020 13:44:28] "  /*à     Cookie: mstshash=Administr" 400 -
+[09/Aug/2020 16:36:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[09/Aug/2020 16:36:05] "  /*à     Cookie: mstshash=Administr" 400 -
+[09/Aug/2020 16:36:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[09/Aug/2020 16:36:05] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /
+[09/Aug/2020 16:56:29] "GET / HTTP/1.1" 404 2386
+----------------------------------------
+Exception happened during processing of request from ('89.248.174.166', 39782)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/.venv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.venv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /config/getuser
+[09/Aug/2020 17:39:04] "GET /config/getuser?index=0 HTTP/1.1" 404 2454
+Not Found: /config/getuser
+[09/Aug/2020 17:56:17] "GET /config/getuser?index=0 HTTP/1.1" 404 2454
+Not Found: /
+[10/Aug/2020 02:54:14] "GET / HTTP/1.1" 404 2386
+----------------------------------------
+Exception happened during processing of request from ('89.248.174.166', 48500)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/.venv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.venv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /config/getuser
+[10/Aug/2020 09:04:42] "GET /config/getuser?index=0 HTTP/1.1" 404 2454
+Not Found: /boaform/admin/formLogin
+[10/Aug/2020 09:59:42] "POST /boaform/admin/formLogin HTTP/1.1" 404 2474
+Not Found: /
+[10/Aug/2020 11:03:25] "GET / HTTP/1.1" 404 2386
+Not Found: /
+[10/Aug/2020 12:41:41] "GET / HTTP/1.1" 404 2386
+----------------------------------------
+Exception happened during processing of request from ('89.248.174.166', 46244)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/.venv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.venv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[10/Aug/2020 15:35:22] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[10/Aug/2020 15:35:22] "  /*à     Cookie: mstshash=Administr" 400 -
+[10/Aug/2020 18:59:03] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[10/Aug/2020 18:59:03] "  /*à     Cookie: mstshash=Administr" 400 -
+[10/Aug/2020 23:54:35] code 400, message Bad request syntax ('\x04\x01\x00\x19h/\x08!\x00')
+[10/Aug/2020 23:54:35] " h/! " 400 -
+[2020-08-10 23:54:35,652] - Broken pipe from ('80.82.65.74', 33696)
+
+[10/Aug/2020 23:55:35] code 400, message Bad request syntax ('\x05\x01\x00')
+[10/Aug/2020 23:55:35] " " 400 -
+[2020-08-10 23:55:35,920] - Broken pipe from ('80.82.65.74', 59012)
+
+[10/Aug/2020 23:56:36] code 400, message Bad request syntax ('\x05\x01\x00')
+[10/Aug/2020 23:56:36] " " 400 -
+[2020-08-10 23:56:36,185] - Broken pipe from ('80.82.65.74', 34742)
+
+Not Found: /
+[11/Aug/2020 00:09:58] "GET / HTTP/1.1" 404 2386
+Not Found: /
+[11/Aug/2020 00:19:27] "GET / HTTP/1.0" 404 2419
+Not Found: /
+[11/Aug/2020 04:43:34] "GET / HTTP/1.1" 404 2386
